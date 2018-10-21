@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <Parameter name="publicAPIKey" value="SetPublicKey" />
+    <Parameter name="privateAPIKey" value="SetPrivateKey" />
+    <Parameter name="username" value="SetUsername" />
+    <Parameter name="password" value="SetPassword" />
+  </TestRunParameters>
+</RunSettings>
