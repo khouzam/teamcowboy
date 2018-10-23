@@ -1,10 +1,10 @@
-# Team Cowboy .NETCore Library #
+# Team Cowboy .NET Library #
 
 ## Copyright (c) MagikInfo 2018 ##
 
 ### Licenced under the [MIT License](https://opensource.org/licenses/MIT)
 
-This is a first implementation of a [Team Cowboy](https://teamcowboy.com) client library.
+This is a first implementation of a [Team Cowboy](https://teamcowboy.com) client library. Current support is for .NETCore 2.1, .NETStandard 2.0 and .NET 4.5
 
 To use:
 1. Instantiate a MagikInfo.TeamCowboy.TeamCowboyService with the public and private keys.

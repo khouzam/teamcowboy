@@ -25,6 +25,7 @@ namespace MagikInfo.TeamCowboy
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.IO;
+    using System.Net;
     using System.Net.Http;
     using System.Security.Cryptography;
     using System.Text;
@@ -141,7 +142,7 @@ namespace MagikInfo.TeamCowboy
             {
                 // Create a new list with all the parameters, lowercased and the values encoded
                 var name = pair.Name.ToLower();
-                var encodedValue = HttpUtility.UrlEncode(pair.Value.ToString()).Replace("+", "%20").Replace("!", "%21");
+                var encodedValue = WebUtility.UrlEncode(pair.Value.ToString()).Replace("+", "%20").Replace("!", "%21");
                 var value = encodedValue.ToLower();
                 sortedParams.Add(new ValuePair(name, value));
 
